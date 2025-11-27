@@ -1,0 +1,36 @@
+a:visited{
+  color: yellow;
+}
+a:link{
+  color:seagreen
+}
+a:active{
+  color: black;
+}
+h1:hover{
+  color: teal;
+  background: black;
+}
+
+input:focus{
+  outline: none;
+  background: mediumaquamarine;
+  color: white;
+
+}
+
+div>h2:first-child{
+  color: purple;
+}
+div>h2:last-child{
+  color: peru;
+}
+div>p:first-of-type{
+  color: brown;
+}
+div>p:last-of-type{
+  color: darkorange;
+}
+div>p:nth-child(3){
+  color: aqua;
+}
