@@ -1,0 +1,37 @@
+*{
+  display: flex;
+}
+
+
+div{
+  width: 200px;
+  height: 200px;
+  border:25px solid;
+  border-radius: 50%;
+  position: relative;;
+  box-sizing: border-box;
+  background: white;
+  border-color: rgb(240, 12, 12) rgb(20, 129, 188) rgb(39, 234, 52) rgb(238, 189, 11);
+
+}
+
+div::before{
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: -25px;
+  width: 80px;
+  height: 110px;
+  background: white;
+}
+
+div::after{
+  content:"";
+  position: absolute;
+  bottom: 40px;
+  right: -25px;
+  width: 80px;
+  height: 20px;
+  background: rgb(26, 129, 188);
+  transform: skew(20deg);
+}
